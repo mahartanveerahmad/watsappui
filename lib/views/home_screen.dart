@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:watsapp/views/tabs/calls.dart';
 import 'package:watsapp/views/tabs/chat.dart';
 import 'package:watsapp/views/tabs/community.dart';
+import 'package:watsapp/views/tabs/status.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -64,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             CommunityScreen(),
             ChatScreen(),
-            Text("status"),
+            StatusScreen(),
             CallScreen(),
           ],
         ),
