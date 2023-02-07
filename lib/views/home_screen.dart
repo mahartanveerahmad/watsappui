@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:watsapp/views/tabs/calls.dart';
 import 'package:watsapp/views/tabs/chat.dart';
 import 'package:watsapp/views/tabs/community.dart';
 
@@ -64,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
             CommunityScreen(),
             ChatScreen(),
             Text("status"),
-            Text("calls"),
+            CallScreen(),
           ],
         ),
       ),

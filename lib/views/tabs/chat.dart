@@ -1,7 +1,4 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
-import 'package:watsapp/models/chat_model.dart';
 
 class ChatScreen extends StatelessWidget {
   const ChatScreen({super.key});
