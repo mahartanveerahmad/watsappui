@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:watsapp/views/tabs/chat.dart';
 import 'package:watsapp/views/tabs/community.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -61,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
         body: const TabBarView(
           children: [
             CommunityScreen(),
-            Text("Chats"),
+            ChatScreen(),
             Text("status"),
             Text("calls"),
           ],
